@@ -1,0 +1,794 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/game_server"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_STACKTRACE_ADDR2LINE_LOCATION=\"/usr/bin/addr2line\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_STACKTRACE_USE_ADDR2LINE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_STACKTRACE_USE_BACKTRACE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_STACKTRACE_USE_NOOP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/ntg/github_projects/DogStory/CONAN_PKG::boost"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/ntg/.conan/data/zlib/1.3/_/_/package/be27726f9885116da1158027505be62e913cd585/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/ntg/.conan/data/bzip2/1.0.8/_/_/package/76bd63d0cd275bc555bda09b7f93740254ba3515/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/ntg/.conan/data/libbacktrace/cci.20210118/_/_/package/be27726f9885116da1158027505be62e913cd585/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/ntg/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/ntg/.conan/data/libpqxx/7.7.4/_/_/package/20033cf4e83642132d9f79046177531478950e98/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				6,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				26,
+				29,
+				31,
+				33,
+				39,
+				50,
+				52,
+				55,
+				57
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ModelLib::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "game_server::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib/libModelLib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_contract.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_coroutine.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_fiber_numa.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_fiber.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_context.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_graph.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_iostreams.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_json.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_locale.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_log_setup.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_log.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_c99.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_c99f.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_c99l.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_tr1.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_tr1f.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_tr1l.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_nowide.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_program_options.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_random.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_regex.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_stacktrace_addr2line.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_stacktrace_backtrace.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_stacktrace_basic.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_stacktrace_noop.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_timer.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_type_erasure.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_thread.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_chrono.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_container.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_date_time.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_unit_test_framework.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_prg_exec_monitor.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_test_exec_monitor.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_exception.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_url.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_wave.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_filesystem.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_atomic.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_wserialization.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/boost/1.83.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_serialization.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/zlib/1.3/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libz.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/bzip2/1.0.8/_/_/package/76bd63d0cd275bc555bda09b7f93740254ba3515/lib/libbz2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/libbacktrace/cci.20210118/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libbacktrace.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/libpqxx/7.7.4/_/_/package/20033cf4e83642132d9f79046177531478950e98/lib/libpqxx.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpq.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpgcommon.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpgcommon_shlib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpgport.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ntg/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpgport_shlib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "game_server",
+	"nameOnDisk" : "game_server",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				6,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				26,
+				29,
+				31,
+				33,
+				39,
+				50,
+				52,
+				55,
+				57
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				5,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				23,
+				24,
+				25,
+				27,
+				28,
+				30,
+				32,
+				34,
+				35,
+				36,
+				37,
+				38,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				51,
+				53,
+				54,
+				56,
+				58,
+				59
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/parse/parse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/util/util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/util/util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/util/tagged.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/util/tagged_uuid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/util/tagged_uuid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/http_server/http_server.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/http_server/http_server.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/json/boost_json.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/json/json_loader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/json/json_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/json/tag_invoke_utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/json/tag_invoke_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/json/tag_invoke_model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/json/tag_invoke_model.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/json/tag_invoke_db.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/json/tag_invoke_db.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/request_handler/request_handler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/request_handler/api_handler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/request_handler/api_handler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/request_handler/file_handler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/request_handler/file_handler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/request_handler/content_type.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/request_handler/error_response.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/request_handler/endpoint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/request_handler/make_response.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/request_handler/make_response.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/request_handler/ticker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/logger/logger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/logger/logger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/app/application.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/app/application.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/app/players.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/app/players.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/app/application_listener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/app/use_cases.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/app/unit_of_work.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/app/use_cases_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/app/use_cases_impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/serialize.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/model_serialize/model_serialize.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/model_serialize/ser_dog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/model_serialize/ser_game_session.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/model_serialize/ser_geom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/model_serialize/ser_loot.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/model_serialize/ser_game.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/app_serialize/ser_players.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/app_serialize/ser_app.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/infrastructure/serializing_listener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/infrastructure/serializing_listener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/infrastructure/db_listener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/infrastructure/db_listener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/db/connection_pool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/db/player_repository.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/db/player_repository.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/db/postgres.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/db/postgres.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/db/connection_pool_factory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/db/prepared.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
